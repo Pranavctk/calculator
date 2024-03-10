@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="appendToDiaplay('+')" class="operator">+</button>
+            <button onclick="appendToDiaplay('7')">7</button>
+            <button onclick="appendToDiaplay('8')">8</button>
+            <button onclick="appendToDiaplay('9')">9</button>
+            <button onclick="appendToDiaplay('-')" class="operator">-</button>
+            <button onclick="appendToDiaplay('4')">4</button>
+            <button onclick="appendToDiaplay('5')">5</button>
+            <button onclick="appendToDiaplay('6')">6</button>
+            <button onclick="appendToDiaplay('x')" class="operator">x</button>
+            <button onclick="appendToDiaplay('1')">1</button>
+            <button onclick="appendToDiaplay('2')">2</button>
+            <button onclick="appendToDiaplay('3')">3</button>
+            <button onclick="appendToDiaplay('/')" class="operator">/</button>
+            <button onclick="appendToDiaplay('0')">0</button>
+            <button onclick="appendToDiaplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="cleardisplay()" class="operator">AC</button>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
